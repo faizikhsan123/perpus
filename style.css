@@ -1,0 +1,372 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+  }
+  body {
+   
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+  }
+  nav {
+    background-color: #23232D;
+    opacity: 1;
+    
+  }
+  
+
+  .apa{
+    background-color: rgba(255, 255, 255, .9);
+     z-index: 999;
+     height: max-content;
+     border-radius: 15px;
+     padding: 15px;
+     
+   
+  }
+  .apa_about{
+    background-color: rgba(255, 255, 255, .9);
+     height: max-content;
+     border-radius: 15px;
+     padding: 15px;
+     
+   
+  }
+  .apate{
+    background-color: rgba(255, 255, 255, .9);
+     z-index: 999;
+    
+     height: max-content;
+     border-radius: 15px;
+     padding: 15px;
+     
+   
+  }
+
+  .card_fitur{
+    height: 350px;
+    background-color: #e4c59e;
+  }
+  .card-textt{
+    text-align: justify;
+    margin-top: -1rem;
+    color: #6c4E31;
+  }
+
+  p.judul{
+    color: #603F26;
+  }
+
+
+  .card-body-about{
+    background-color: red;
+  }
+
+  .about img{
+    height: 350px;
+    background-position: center;
+
+    }
+
+  
+
+  i{
+    color: #dca45f;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #E4C59e;
+    transition: .5s;
+  }
+  a.navbar-brand span{
+    color: #E4C59e;
+  }
+
+    
+  .navbar-nav .nav-link:hover{
+    color: rgb(125, 94, 94);
+    border-bottom: 1px  solid black;
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+
+    
+  }
+
+  .box_about{
+    background: transparent;
+  }
+
+
+  /* parallax */
+
+
+  section#home{
+    background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100vh;
+         background-image: url(img/parallax/pexels-abby-chung-371167-1106468.jpg);  
+  }
+
+  .dark{
+    background-color:#121212;
+    background-image: none;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+
+    
+  }
+
+  .btn{
+    background-color: #49494a;
+    border: none;
+    color: white;
+
+  }
+
+  
+  
+  section#about{
+     background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: max-content;
+         background-image: url(img/parallax/front-view-book-arrangement-wooden-table.jpg); 
+  
+
+  }
+
+  section#keunggulan{
+    background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: max-content;
+         background-image:url(img/parallax/1.jpg); 
+
+  }
+
+  section#koleksi{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: max-content;
+     background-image:url(img/parallax/1.jpg); 
+
+  }
+
+
+  section#kontak{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: max-content;
+    background-image:url(img/parallax/benjaminrobyn-jespersen-Ai9_QJaZfMc-unsplash.jpg); 
+
+  }
+
+
+ 
+
+  .kolek{
+    background-position: center;
+          background-size: cover;
+          background-attachment: fixed;
+        
+     background-image: url(img/parallax/bhautik-patel-DWkI7bCokDU-unsplash.jpg); 
+   }
+
+
+  
+  
+  h3 {
+    color: #22007C;
+  }
+  p {
+    color: #4A628A;
+  
+  }
+
+
+  h1.about_judul{
+    color: #800e13;
+  }
+  h2{
+    color: #3A6D8C;
+  
+  }
+  label{
+    color: #3A6D8C;
+  }
+  
+  section {
+    padding-top: 5rem;
+  }
+  
+  li {
+    margin-left: 25px;
+    margin-top: 8px;
+   
+  }
+
+  .box img {
+    height: 330px;
+    border-radius: 25%;
+  
+  }
+  
+  
+   .kenali{
+    font-size: 2rem;
+   }
+
+
+
+
+  .box-buku{
+    height: 4.5rem;
+    margin: -1rem;
+    
+   
+
+  } 
+ 
+
+  
+
+  .modal1,
+  .modal2,
+  .modal3,
+  .modal4,
+  .modal5,
+  .modal6,
+  .modal7,
+  .modal8,
+  .modal9,
+  .modal10,
+  .modal11 {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  
+
+
+  
+  .modal-container1,
+  .modal-container2,
+  .modal-container3,
+  .modal-container4,
+  .modal-container5,
+  .modal-container6,
+  .modal-container7,
+  .modal-container8,
+  .modal-container9,
+  .modal-container10,
+  .modal-container11 {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 1.2rem;
+    border: 1px solid #666;
+    width: 80%;
+    animation: animateModal 1s;
+  }
+
+
+  /* modal animation */
+@keyframes animateModal {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+
+
+  .product-stars{
+    font-size: 0.5rem;
+    color: #ffce7e;
+   
+    
+  }
+ 
+
+   @media (max-width: 576px) {
+    .text{
+      width: 300px;
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    
+    }
+      }
+
+
+      @media (min-width: 768px) and (max-width: 1023px) {
+.text{
+  width: 190px;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+.box img{
+  margin-top: 4rem;
+}
+.apa{
+  margin-top: 4.5rem;
+}
+  }
+
+  
+  @media (min-width: 1024px) {
+    .text{
+      width: 155px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+
+    .box img{
+      margin-top: 2.3rem;
+    }
+    .apa{
+      margin-top: 5rem;
+    }
+    li{
+      position: relative;
+      left: 20%;
+    }
+      } 
+ 
+
+
+ /* dark mode rill */
+
+
+
+ 
