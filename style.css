@@ -314,7 +314,7 @@
 
    @media (max-width: 576px) {
     .text{
-      width: 300px;
+      width: 200px;
       display: block;
       white-space: nowrap;
       overflow: hidden;
